@@ -1,6 +1,6 @@
 <%-- 
     Document   : index
-    Created on : Feb 18, 2020, 11:03:05 AM
+    Created on : Feb 21, 2020, 9:41:51 AM
     Author     : jinjason
 --%>
 
@@ -12,11 +12,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <form action="VlidateServlet" method="post">
-           <input type="text" name="sno">
-           <input type="text" name="firstName">
-           <input type="submit" value="Click"> 
+        <form action="NextServlet" method="post">
+            <input type="text" name="user">
+            <input type="submit" value="click">
         </form>
-        
     </body>
 </html>

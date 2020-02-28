@@ -31,9 +31,14 @@ public class ValidateServlet extends HttpServlet {
             Cookie nameCookie = new Cookie("name", name);
             response.addCookie(nameCookie);
             Cookie emailCookie = new Cookie("email", email);
-            response.addCookie(emailCookie);
-            
+//            response.addCookie(emailCookie);                  // added by me
+//            Cookie[] cookies = request.getCookies();          // added by me
             PrintWriter out = response.getWriter();
+//            for(Cookie cookie: cookies) {                     // added by me
+//                out.print(cookie.getName() + " " + cookie.getValue());        // added by me
+//            }
+            
+            
             out.println("Hi Dane....");
         }
     }

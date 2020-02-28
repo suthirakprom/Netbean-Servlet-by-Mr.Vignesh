@@ -34,6 +34,7 @@
             out.print("<a href='ViewDetails.jsp'>View Details</a>");
             
             //4 exception
+            // jump to Error.jsp
             int c = 10/0;
         %>
         

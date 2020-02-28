@@ -13,9 +13,9 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <!-- try to trigger the 404 error -->
         <a href="a.jsp">Click me</a>
         <!-- This is for null exception -->
-        <h1>Null Code is here</h1>
         <%
             String user = request.getParameter("user");
             out.println(user.indexOf(1));
